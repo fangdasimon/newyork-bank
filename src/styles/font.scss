@@ -1,0 +1,35 @@
+// font type
+
+@font-face {font-family: "Titillium_Web_Black";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Black.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_Bold";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_BoldItalic";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-BoldItalic.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_ExtraLight";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-ExtraLight.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_ExtraLightItalic";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-ExtraLightItalic.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_Light";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_LightItalic";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-LightItalic.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_Regular";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_RegularItalic";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-RegularItalic.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_SemiBold";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}
+@font-face {font-family: "Titillium_Web_SemiBoldItalic";
+  src: url('../fonts/Titillium_Web/TitilliumWeb-SemiBoldItalic.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+}

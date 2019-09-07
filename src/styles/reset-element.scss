@@ -1,0 +1,18 @@
+// cover some elelment-ui css
+
+.el-icon-caret-bottom {
+  color: #a71e32;
+}
+
+.el-select-dropdown {
+  font-family: "Titillium_Web_SemiBold";
+  .el-select-dropdown__item.hover,
+  .el-select-dropdown__item:hover {
+    background: rgb(0, 95, 195, 0.07);
+    color: #005fc3;
+  }
+}
+
+.el-card {
+  border-color: transparent;
+}

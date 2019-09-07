@@ -1,0 +1,49 @@
+// 页面通用样式
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.my-scrollbar {
+  height: 400px;
+  .el-scrollbar__wrap {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .el-scrollbar__thumb {
+    background-color: #606266;
+  }
+  .el-scrollbar__bar.is-vertical {
+    top: 50px;
+  }
+}
+
+/* fade-transform */
+.fade-transform-enter-active,
+.fade-transform-leave-active {
+  transition: all 0.5s;
+}
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(10px);
+}
+
